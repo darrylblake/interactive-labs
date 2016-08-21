@@ -7,7 +7,7 @@
     "start": "node server.js",
     "prod": "webpack -p",
     "lint": "./node_modules/.bin/eslint",
-    "test": "mocha test/setup.js test/**/*-test.js"
+    "test": "mocha test/setup.js test/**/*-test.js --watch"
   },
   "author": "Darryl Blake",
   "dependencies": {
